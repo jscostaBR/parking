@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/parking/static/css/main.f22c6a6a.css",
+    "main.js": "/parking/static/js/main.7a7dde72.js",
+    "static/media/logo-short-white.svg": "/parking/static/media/logo-short-white.3c3628e6b37b39d701eb69e0edc41c68.svg",
+    "static/media/loading.svg": "/parking/static/media/loading.8abe1fe245620665d0e50f72fe951dcb.svg",
+    "static/media/error-icon.svg": "/parking/static/media/error-icon.ecfc8f562ae16d8ba820775621695a1d.svg",
+    "static/media/done.svg": "/parking/static/media/done.ec75dafdc02e4df80a301efd91672f42.svg",
+    "static/media/menu.svg": "/parking/static/media/menu.352a4b1d62289a0ca70605330991e48b.svg",
+    "static/media/close.svg": "/parking/static/media/close.f90970572526d0756682ed699e6ae448.svg",
+    "index.html": "/parking/index.html",
+    "static/media/arrow-left.svg": "/parking/static/media/arrow-left.2b62d3bfcf880dcde915a955221a9bcf.svg",
+    "main.f22c6a6a.css.map": "/parking/static/css/main.f22c6a6a.css.map",
+    "main.7a7dde72.js.map": "/parking/static/js/main.7a7dde72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f22c6a6a.css",
+    "static/js/main.7a7dde72.js"
+  ]
+}
