@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Leave render correctly 1`] = `
+<div
+  className="sc-bczRLJ fXEewa"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <label
+      className="sc-gsnTZi kQVvHB"
+    >
+      <span>
+        Número da placa:
+      </span>
+      <input
+        name="leave"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onPaste={[Function]}
+        placeholder="AAA-0000"
+        value=""
+      />
+    </label>
+    <button
+      className="sc-dkzDqf sc-eCYdqJ excwFd bMHkOw"
+      disabled={true}
+      onClick={[Function]}
+    >
+      PAGAMENTO
+    </button>
+    <button
+      className="sc-dkzDqf sc-jSMfEi excwFd mpEnG"
+      disabled={true}
+      onClick={[Function]}
+    >
+      SAÍDA
+    </button>
+    <button
+      className="go-to-historic"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Ver Histórico
+    </button>
+  </form>
+</div>
+`;

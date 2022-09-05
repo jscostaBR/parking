@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Tabs render Tabs with data 1`] = `
+<div
+  className="sc-bczRLJ kCaXxT"
+>
+  <nav
+    className="sc-gsnTZi fcWxDb"
+  >
+    <button
+      className="sc-dkzDqf cLImuM"
+      onClick={[Function]}
+    >
+      TestComponent0
+    </button>
+    <button
+      className="sc-dkzDqf jwdAEe"
+      onClick={[Function]}
+    >
+      TestComponent1
+    </button>
+  </nav>
+  <main
+    className="sc-hKMtZM"
+  >
+    <div>
+      TestComponent0
+    </div>
+  </main>
+</div>
+`;

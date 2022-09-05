@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Entry render correctly 1`] = `
+<div
+  className="sc-bczRLJ kknKxP"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <label
+      className="sc-gsnTZi fiLyGA"
+    >
+      <span>
+        Número da placa:
+      </span>
+      <input
+        name="entry"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onPaste={[Function]}
+        placeholder="AAA-0000"
+        value=""
+      />
+    </label>
+    <button
+      className="sc-hKMtZM sc-eCYdqJ kDbrgC kIlOPt"
+      disabled={true}
+    >
+      CONFIRMAR ENTRADA
+    </button>
+  </form>
+</div>
+`;

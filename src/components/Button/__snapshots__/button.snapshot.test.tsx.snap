@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Button and yours variations render correctly with type: outlined, isValid: true 1`] = `
+<button
+  className="sc-bczRLJ sc-hKMtZM cEWaEo aWJSX"
+>
+  OUTLINED
+</button>
+`;
+
+exports[`render Button and yours variations render correctly with type: primary and isValid: true 1`] = `
+<button
+  className="sc-bczRLJ sc-gsnTZi cEWaEo diHsI"
+>
+  PRIMARY
+</button>
+`;
+
+exports[`render Button and yours variations render correctly with type: primary, isValid: false and disabled: true 1`] = `
+<button
+  className="sc-bczRLJ sc-gsnTZi cEWaEo diHsI"
+>
+  PRIMARY
+</button>
+`;
+
+exports[`render Button and yours variations render correctly with type: secondary, isValid: true 1`] = `
+<button
+  className="sc-bczRLJ sc-dkzDqf cEWaEo eeEuWq"
+>
+  SECONDARY
+</button>
+`;

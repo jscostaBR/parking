@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Loading render correctly with type: confirmation 1`] = `
+<div
+  className="sc-bczRLJ cKAijv"
+>
+  <img />
+  <span>
+    Confirmando...
+  </span>
+</div>
+`;
+
+exports[`render Loading render correctly with type: registry 1`] = `
+<div
+  className="sc-bczRLJ cKAijv"
+>
+  <img />
+  <span>
+    Registrando...
+  </span>
+</div>
+`;

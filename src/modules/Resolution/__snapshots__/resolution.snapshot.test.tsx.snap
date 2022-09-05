@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Resolutions render correctly with type: getOut 1`] = `
+<div
+  className="sc-bczRLJ djUyFE"
+>
+  <img />
+  <span>
+    Saída Liberada
+  </span>
+</div>
+`;
+
+exports[`render Resolutions render correctly with type: payment 1`] = `
+<div
+  className="sc-bczRLJ djUyFE"
+>
+  <img />
+  <span>
+    Pago!
+  </span>
+</div>
+`;
+
+exports[`render Resolutions render correctly with type: registry 1`] = `
+<div
+  className="sc-bczRLJ djUyFE"
+>
+  <img />
+  <span>
+    Registrado!
+  </span>
+</div>
+`;

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Historic render correctly 1`] = `
+[
+  <nav
+    className="sc-dkzDqf kIIFRG"
+  >
+    <img />
+    <img
+      className="hamburger"
+      onClick={[Function]}
+    />
+  </nav>,
+  <div
+    className="sc-hKMtZM kVBDyd"
+  >
+    <div
+      className="header"
+    >
+      <img
+        className="logo"
+      />
+      <img
+        className="close"
+        onClick={[Function]}
+      />
+    </div>
+    <div>
+      <span>
+        Entrada
+      </span>
+      <span>
+        Saída
+      </span>
+    </div>
+  </div>,
+  <div
+    className="sc-bczRLJ jLxbrI"
+  >
+    <section>
+      <div
+        className="header"
+      >
+        <img
+          onClick={[Function]}
+        />
+        Placa 
+        AAA-1234
+      </div>
+    </section>
+  </div>,
+]
+`;

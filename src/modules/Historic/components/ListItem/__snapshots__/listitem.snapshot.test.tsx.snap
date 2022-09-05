@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render ListItem render correctly 1`] = `
+<div
+  className="sc-bczRLJ kIPHBJ"
+>
+  <section>
+    <p>
+      Tempo 
+      total
+    </p>
+    <strong>
+      1 hora 12 min
+    </strong>
+  </section>
+  <section>
+    <p>
+      Pagamento
+    </p>
+    <strong>
+      Pago
+    </strong>
+  </section>
+</div>
+`;

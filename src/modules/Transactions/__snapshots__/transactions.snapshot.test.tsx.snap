@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Resolutions render correctly with plate: AAA-1234 and type: getOut 1`] = `
+<div
+  className="sc-bczRLJ kjaPWg"
+>
+  <p
+    className="transaction-question"
+  >
+    Confirma 
+    a saída
+     da placa abaixo?
+  </p>
+  <p
+    className="plate"
+  >
+    AAA-1234
+  </p>
+  <button
+    className="sc-gsnTZi sc-hKMtZM iiaxUS kKxHSB"
+    onClick={[Function]}
+  >
+    CONFIRMAR
+  </button>
+  <button
+    className="go-back"
+    onClick={[Function]}
+  >
+    Voltar
+  </button>
+</div>
+`;
+
+exports[`render Resolutions render correctly with plate: AAA-1234 and type: payment 1`] = `
+<div
+  className="sc-bczRLJ kjaPWg"
+>
+  <p
+    className="transaction-question"
+  >
+    Confirma 
+    o pagamento
+     da placa abaixo?
+  </p>
+  <p
+    className="plate"
+  >
+    AAA-1234
+  </p>
+  <button
+    className="sc-gsnTZi sc-hKMtZM iiaxUS kKxHSB"
+    onClick={[Function]}
+  >
+    CONFIRMAR
+  </button>
+  <button
+    className="go-back"
+    onClick={[Function]}
+  >
+    Voltar
+  </button>
+</div>
+`;
