@@ -9,19 +9,20 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "typeRoots": ["node_modules/@types", "src/index.d.ts"]
+    "typeRoots": ["node_modules/@types", "src/index.d.ts"],
   },
   "include": [
     "src",
     ".eslintrc.json",
     "**/*.{tsx, ts}",
     "src/index.d.ts",
-    "src/styles/styled.d.ts"
-  ]
+    "src/styles/styled.d.ts",
+    "jest.config.ts",
+    "__mocks__/react-router-dom.js"  ],
 }
