@@ -8,3 +8,5 @@ describe('render Entry', () => {
     expect(tree).toMatchSnapshot()
   })
 })
+
+export = {}
