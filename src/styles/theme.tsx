@@ -1,4 +1,40 @@
-export const theme = {
+export interface ThemeType {
+  colors: {
+    main: {
+      purple: string,
+      green: string,
+      orange: string,
+    },
+    neutrals: {
+      neutral_900: string,
+      neutral_800: string,
+      neutral_700: string,
+      neutral_600: string,
+      neutral_500: string,
+      neutral_400: string,
+      neutral_300: string,
+      neutral_200: string,
+      neutral_100: string,
+      neutral_50: string,
+    },
+    blue: {
+      blue_600: string,
+      blue_500: string,
+      blue_400: string,
+    },
+    green: {
+      green_400: string,
+      green_350: string,
+    },
+    rose: {
+      rose_700: string,
+      rose_600: string,
+      rose_300: string,
+    },
+  }
+}
+
+export const theme: ThemeType = {
   colors: {
     main: {
       purple: '#A769B2',
@@ -33,5 +69,3 @@ export const theme = {
     },
   },
 }
-
-export type ThemeType = typeof theme

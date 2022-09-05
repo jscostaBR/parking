@@ -9,21 +9,21 @@ export const Container = styled.div`
   padding: 1rem;
   width: 21.25rem;
   height: 18.375rem;
-  background-color: ${(props) => props.theme.colors.neutrals.neutral_50};
+  background-color: ${(props) => props.theme.colors?.neutrals?.neutral_50};
   .transaction-question {
-    color: ${(props) => props.theme.colors.neutrals.neutral_700};
+    color: ${(props) => props.theme.colors?.neutrals?.neutral_700};
     font-size: 1rem;
     line-height: 1.25rem;
     background-color: transparent;
   }
   .plate {
-    color: ${(props) => props.theme.colors.blue.blue_400};
+    color: ${(props) => props.theme.colors?.blue?.blue_400};
     font-size: 2.375rem;
     line-height: 2.875rem;
     background-color: transparent;
   }
   .go-back {
-    color: ${(props) => props.theme.colors.blue.blue_400};
+    color: ${(props) => props.theme.colors?.blue?.blue_400};
     font-size: 1rem;
     line-height: 1.125rem;
     background-color: transparent;

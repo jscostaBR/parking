@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${(props) => props.theme.colors.neutrals.neutral_50};
+  background-color: ${(props) => props.theme.colors?.neutrals?.neutral_50};
   min-height: 16rem;
   min-width: 21.25rem;
   > span {

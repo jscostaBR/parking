@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${(props) => props.theme.colors.neutrals.neutral_50};
+  background-color: ${(props) => props.theme.colors?.neutrals?.neutral_50};
   min-height: 16rem;
   min-width: 21.25rem;
   > img {
@@ -17,7 +17,7 @@ export const Container = styled.div`
     justify-content: center;
     background-color: transparent;
     z-index: 1;
-    color: ${(props) => props.theme.colors.neutrals.neutral_700};
+    color: ${(props) => props.theme.colors?.neutrals?.neutral_700};
     font-size: 1rem;
     line-height: 1.125rem;
     padding: 1rem 0;

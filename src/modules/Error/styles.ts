@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  background: ${(props) => props.theme.colors.rose.rose_700};
+  background: ${(props) => props.theme.colors?.rose?.rose_700};
   border-radius: 0.25rem;
   padding: 0.5rem;
   display: flex;
@@ -14,6 +14,6 @@ export const Container = styled.div`
   > span {
     font-size: 1rem;
     background: transparent;
-    color: ${(props) => props.theme.colors.rose.rose_600};
+    color: ${(props) => props.theme.colors?.rose?.rose_600};
   }
 `

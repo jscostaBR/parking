@@ -16,13 +16,13 @@ export const ButtonTab = styled.button.attrs(
   border-radius: 0.25rem 0.25rem 0 0;
   padding: 0.375rem 0;
   border-bottom: ${(props) =>
-    props.isActiveTab ? `3px solid ${props.theme.colors.blue.blue_600}` : 0};
+    props.isActiveTab ? `3px solid ${props.theme.colors?.blue?.blue_600}` : 0};
   background-color: ${(props) =>
-    props.isActiveTab ? props.theme.colors.neutrals.neutral_50 : 'transparent'};
+    props.isActiveTab ? props.theme.colors?.neutrals?.neutral_50 : 'transparent'};
   color: ${(props) =>
     props.isActiveTab
-      ? props.theme.colors.blue.blue_600
-      : props.theme.colors.neutrals.neutral_500};
+      ? props.theme.colors?.blue?.blue_600
+      : props.theme.colors?.neutrals?.neutral_500};
   transition: all 0.4s;
   &:hover {
     cursor: pointer;

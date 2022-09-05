@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: ${(props) => props.theme.colors.neutrals.neutral_50};
+  background-color: ${(props) => props.theme.colors?.neutrals?.neutral_50};
   padding: 0 1rem;
   min-height: 22rem;
   justify-content: center;
@@ -12,7 +12,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     .go-to-historic {
-      color: ${(props) => props.theme.colors.blue.blue_400};
+      color: ${(props) => props.theme.colors?.blue?.blue_400};
       font-size: 1rem;
       line-height: 1.125rem;
       background-color: transparent;
@@ -25,14 +25,14 @@ export const Container = styled.div`
 export const Label = styled.label`
   display: flex;
   flex-direction: column;
-  background-color: ${(props) => props.theme.colors.neutrals.neutral_50};
+  background-color: ${(props) => props.theme.colors?.neutrals?.neutral_50};
   > span {
     background-color: transparent;
     margin-bottom: 0.5rem;
   }
   > input {
-    background: ${(props) => props.theme.colors.neutrals.neutral_100};
-    border: 1px solid ${(props) => props.theme.colors.neutrals.neutral_400};
+    background: ${(props) => props.theme.colors?.neutrals?.neutral_100};
+    border: 1px solid ${(props) => props.theme.colors?.neutrals?.neutral_400};
     padding: 1rem;
     font-size: 1.5rem;
     text-align: center;

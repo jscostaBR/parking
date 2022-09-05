@@ -5,12 +5,12 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 1rem;
   border-radius: 0.25rem;
-  background-color: ${(props) => props.theme.colors.neutrals.neutral_50};
+  background-color: ${(props) => props.theme.colors?.neutrals?.neutral_50};
   > section {
     min-height: 20rem;
     background-color: transparent;
     .header {
-      color: ${(props) => props.theme.colors.blue.blue_600};
+      color: ${(props) => props.theme.colors?.blue?.blue_600};
       font-size: 1.5rem;
       line-height: 1.75rem;
       display: flex;
@@ -39,13 +39,13 @@ export const Container = styled.div`
       .title {
         font-size: 0.75rem;
         line-height: 0.875rem;
-        color: ${(props) => props.theme.colors.neutrals.neutral_500};
+        color: ${(props) => props.theme.colors?.neutrals?.neutral_500};
         background-color: transparent;
       }
       .plate {
         font-size: 2.25rem;
         line-height: 3.25rem;
-        color: ${(props) => props.theme.colors.blue.blue_400};
+        color: ${(props) => props.theme.colors?.blue?.blue_400};
         background-color: transparent;
       }
       .status,
@@ -53,7 +53,7 @@ export const Container = styled.div`
       .payment {
         font-size: 1.5rem;
         line-height: 1.75rem;
-        color: ${(props) => props.theme.colors.neutrals.neutral_800};
+        color: ${(props) => props.theme.colors?.neutrals?.neutral_800};
         background-color: transparent;
       }
     }
