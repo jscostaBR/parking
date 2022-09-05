@@ -3,7 +3,7 @@ import { Container } from './styles'
 import { ModalProps, UseModalProps } from './types'
 
 export const useModal = (): UseModalProps => {
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState<boolean>(false)
 
   const handleOpenModal = (): void => {
     setVisible(true)
