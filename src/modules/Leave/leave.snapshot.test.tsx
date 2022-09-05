@@ -10,3 +10,5 @@ describe('render Leave', () => {
     expect(tree).toMatchSnapshot()
   })
 })
+
+export = {}
