@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render Menu render correctly 1`] = `
+[
+  <div
+    className="sc-bczRLJ ccLdSK"
+  >
+    <img
+      alt=""
+    />
+    <img
+      alt=""
+      className="hamburger"
+      onClick={[Function]}
+    />
+  </div>,
+  <div
+    className="sc-gsnTZi feLnsf"
+  >
+    <div
+      className="header"
+    >
+      <img
+        className="logo"
+      />
+      <img
+        className="close"
+        onClick={[Function]}
+      />
+    </div>
+    <div>
+      <span>
+        Entrada
+      </span>
+      <span>
+        Saída
+      </span>
+    </div>
+  </div>,
+]
+`;

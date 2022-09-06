@@ -1,14 +1,19 @@
 import styled from 'styled-components'
 
-export const Container = styled.nav`
+export const Container = styled.div.attrs(
+  (props: { isOpen: boolean }) => props
+)`
+  max-width: 1920px;
+  margin: 0 auto;
   background-color: ${(props) => props.theme.colors?.blue?.blue_600};
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   height: 3.75rem;
   padding: 0 0.5rem;
   margin-bottom: 2.5rem;
-  overflow: hidden;
+  margin-right: ${(props) => (props.isOpen ? '100vw' : 0)};
+  transition: margin-right 0.5s;
   > img {
     background-color: transparent;
   }
@@ -23,21 +28,20 @@ export const Container = styled.nav`
     }
   }
 `
-export const MenuMobile = styled.div.attrs(
-  (props: { active: boolean }) => props
+export const MenuOffCanvas = styled.div.attrs(
+  (props: { isOpen: boolean; shiftedRight: number }) => props
 )`
   max-width: 1920px;
-  display: flex;
-  flex-direction: column;
-  background-color: ${(props) => props.theme.colors?.blue?.blue_600};
-  height: calc(100vh);
-  width: 100vw;
-  transform: ${(props) =>
-    props.active ? 'translateX(0%)' : 'translateX(150%)'};
+  height: 100vh;
+  width: ${(props) => (props.isOpen ? '100vw' : 0)};
   position: absolute;
+  z-index: 1;
   top: 0;
-  transition: transform 0.4s;
-  overflow: hidden;
+  right: ${(props) => (props.shiftedRight > 0 ? `${props.shiftedRight}px` : 0)};
+  margin: 0 auto;
+  background-color: ${(props) => props.theme.colors?.blue?.blue_600};
+  overflow-x: hidden;
+  transition: width 0.5s;
   .header {
     background-color: ${(props) => props.theme.colors?.blue?.blue_600};
     display: flex;
