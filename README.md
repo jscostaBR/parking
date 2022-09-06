@@ -15,3 +15,7 @@ Este projeto é uma implementação da API parking-lot-to-pfz sobre o layout tes
 
 - Utilize `yarn dev` para executar o projeto e avaliá-lo em ambiente de desenvolvimento.
 - Utilize o seguinte link para avaliá-lo em ambiente de produção: <https://jscostabr.github.io/parking/#/>
+
+## Dificuldades
+
+- Tive dificuldades em propor testes mais robustos.
