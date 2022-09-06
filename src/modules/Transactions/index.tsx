@@ -44,9 +44,7 @@ export const Transactions = ({
         )
         if (errorMessage === 'not found') {
           setLoading(false)
-          setErrorMessage(
-            'Verifique se a entrada | pagamento | saída já foi realizada'
-          )
+          setErrorMessage('Verifique se o pagamento já foi realizado')
         }
       })
   }
@@ -74,9 +72,7 @@ export const Transactions = ({
         )
         if (errorMessage === 'not found') {
           setLoading(false)
-          setErrorMessage(
-            'Verifique se a entrada | pagamento | saída já foi realizada'
-          )
+          setErrorMessage('Verifique se a saída já foi realizada')
         }
       })
   }
