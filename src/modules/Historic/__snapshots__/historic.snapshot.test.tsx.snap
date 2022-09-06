@@ -2,17 +2,20 @@
 
 exports[`render Historic render correctly 1`] = `
 [
-  <nav
-    className="sc-dkzDqf kIIFRG"
+  <div
+    className="sc-dkzDqf lfpPPP"
   >
-    <img />
     <img
+      alt=""
+    />
+    <img
+      alt=""
       className="hamburger"
       onClick={[Function]}
     />
-  </nav>,
+  </div>,
   <div
-    className="sc-hKMtZM kVBDyd"
+    className="sc-hKMtZM eBbWuD"
   >
     <div
       className="header"
